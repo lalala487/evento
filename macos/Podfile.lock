@@ -1,0 +1,110 @@
+PODS:
+  - connectivity (0.0.1)
+  - connectivity_macos (0.0.1):
+    - FlutterMacOS
+    - Reachability
+  - Firebase/Core (6.34.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.9.0)
+  - Firebase/CoreOnly (6.34.0):
+    - FirebaseCore (= 6.10.4)
+  - Firebase/Storage (6.34.0):
+    - Firebase/CoreOnly
+    - FirebaseStorage (~> 3.9.1)
+  - firebase_core (0.0.1):
+    - Firebase/Core
+    - FlutterMacOS
+  - firebase_storage (0.0.1):
+    - Firebase/Storage
+    - FlutterMacOS
+  - FirebaseCore (6.10.4):
+    - FirebaseCoreDiagnostics (~> 1.6)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Logger (~> 6.7)
+  - FirebaseCoreDiagnostics (1.7.0):
+    - GoogleDataTransport (~> 7.4)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Logger (~> 6.7)
+    - nanopb (~> 1.30906.0)
+  - FirebaseStorage (3.9.1):
+    - FirebaseCore (~> 6.10)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FlutterMacOS (1.0.0)
+  - GoogleDataTransport (7.5.1):
+    - nanopb (~> 1.30906.0)
+  - GoogleUtilities/Environment (6.7.2):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (6.7.2):
+    - GoogleUtilities/Environment
+  - GTMSessionFetcher/Core (1.5.0)
+  - nanopb (1.30906.0):
+    - nanopb/decode (= 1.30906.0)
+    - nanopb/encode (= 1.30906.0)
+  - nanopb/decode (1.30906.0)
+  - nanopb/encode (1.30906.0)
+  - PromisesObjC (1.2.11)
+  - Reachability (3.2)
+  - shared_preferences (0.0.1)
+  - shared_preferences_macos (0.0.1):
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - connectivity (from `Flutter/ephemeral/.symlinks/plugins/connectivity/macos`)
+  - connectivity_macos (from `Flutter/ephemeral/.symlinks/plugins/connectivity_macos/macos`)
+  - firebase_core (from `Flutter/ephemeral/.symlinks/plugins/firebase_core/macos`)
+  - firebase_storage (from `Flutter/ephemeral/.symlinks/plugins/firebase_storage/macos`)
+  - FlutterMacOS (from `Flutter/ephemeral/.symlinks/flutter/darwin-x64`)
+  - shared_preferences (from `Flutter/ephemeral/.symlinks/plugins/shared_preferences/macos`)
+  - shared_preferences_macos (from `Flutter/ephemeral/.symlinks/plugins/shared_preferences_macos/macos`)
+
+SPEC REPOS:
+  trunk:
+    - Firebase
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseStorage
+    - GoogleDataTransport
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - nanopb
+    - PromisesObjC
+    - Reachability
+
+EXTERNAL SOURCES:
+  connectivity:
+    :path: Flutter/ephemeral/.symlinks/plugins/connectivity/macos
+  connectivity_macos:
+    :path: Flutter/ephemeral/.symlinks/plugins/connectivity_macos/macos
+  firebase_core:
+    :path: Flutter/ephemeral/.symlinks/plugins/firebase_core/macos
+  firebase_storage:
+    :path: Flutter/ephemeral/.symlinks/plugins/firebase_storage/macos
+  FlutterMacOS:
+    :path: Flutter/ephemeral/.symlinks/flutter/darwin-x64
+  shared_preferences:
+    :path: Flutter/ephemeral/.symlinks/plugins/shared_preferences/macos
+  shared_preferences_macos:
+    :path: Flutter/ephemeral/.symlinks/plugins/shared_preferences_macos/macos
+
+SPEC CHECKSUMS:
+  connectivity: 5da134a8c10a7b6f334a17217fe4d0cfc4fb1c64
+  connectivity_macos: 9f30e9d0e67a0bc08a0c563ee82310b51ca6e818
+  Firebase: c23a36d9e4cdf7877dfcba8dd0c58add66358999
+  firebase_core: b77314bf4bfacf4fb7253ce9bcdd39eb1cff9348
+  firebase_storage: 058761f575387fb25d443f1c1e8ed662af7dbf0a
+  FirebaseCore: d3a978a3cfa3240bf7e4ba7d137fdf5b22b628ec
+  FirebaseCoreDiagnostics: 770ac5958e1372ce67959ae4b4f31d8e127c3ac1
+  FirebaseStorage: 15e0f15ef3c7fec3d1899d68623e47d4447066b4
+  FlutterMacOS: 15bea8a44d2fa024068daa0140371c020b4b6ff9
+  GoogleDataTransport: f56af7caa4ed338dc8e138a5d7c5973e66440833
+  GoogleUtilities: 7f2f5a07f888cdb145101d6042bc4422f57e70b3
+  GTMSessionFetcher: b3503b20a988c4e20cc189aa798fd18220133f52
+  nanopb: 59317e09cf1f1a0af72f12af412d54edf52603fc
+  PromisesObjC: 8c196f5a328c2cba3e74624585467a557dcb482f
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  shared_preferences: 9fec34d1bd906196a4da48fcf6c3ad521cc00b8d
+  shared_preferences_macos: 480ce071d0666e37cef23fe6c702293a3d21799e
+
+PODFILE CHECKSUM: d8ba9b3e9e93c62c74a660b46c6fcb09f03991a7
+
+COCOAPODS: 1.8.4
